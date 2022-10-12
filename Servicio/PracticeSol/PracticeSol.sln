@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePractice", "ServicePractice\ServicePractice.csproj", "{D3161100-1758-46C8-8368-39D0EF872BA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{B2798FE9-4093-4012-B819-32A4D05587E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{8FBEBAED-7491-4222-AC81-65723B9F7DE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{13F525F7-03C6-4251-AC4B-E0CDF8EECC9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{3D14A46B-1EA2-4FB7-860D-4FBF32C07278}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tranversal", "Tranversal", "{8CED99E2-DB21-4E66-B279-A8BEAB186099}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3161100-1758-46C8-8368-39D0EF872BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3161100-1758-46C8-8368-39D0EF872BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3161100-1758-46C8-8368-39D0EF872BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3161100-1758-46C8-8368-39D0EF872BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3161100-1758-46C8-8368-39D0EF872BA9} = {B2798FE9-4093-4012-B819-32A4D05587E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2BE89DF-2680-4E50-9E12-95D837962124}
+	EndGlobalSection
+EndGlobal
