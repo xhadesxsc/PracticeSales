@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FJW434QCifOet92M76+su23JzsfzxCG0aU/4XqKUvtMeazT51w6/65G85gwmhRSwcW5x1FR9v3wNDBet4pcLHg==",
+  "success": true,
+  "projectFilePath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HADES-SRV\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\HADES-SRV\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

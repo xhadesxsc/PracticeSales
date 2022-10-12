@@ -1,0 +1,13 @@
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.deps.json
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.dll
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.pdb
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Entity.dll
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Entity.pdb
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.csproj.AssemblyReference.cache
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.AssemblyInfoInputs.cache
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.AssemblyInfo.cs
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.csproj.CoreCompileInputs.cache
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.csproj.CopyComplete
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.dll
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Domain.Interface\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Domain.Interface.pdb

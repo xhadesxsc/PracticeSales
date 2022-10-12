@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bpGKoHn8DVGFyAHvEZeAMIlQaph2nMJ6cpzBsJ7R5Fn//Y3YNqRfOI04n3hKBGOG9ovG2OPbtuiTQAL7cOdbAw==",
+  "success": true,
+  "projectFilePath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Mapper\\Practice.Ecommerce.Transversal.Mapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HADES-SRV\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\HADES-SRV\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,987 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Services.WebApi\\Practice.Ecommerce.Services.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj",
+        "projectName": "Practice.Ecommerce.Application.DTO",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj",
+        "projectName": "Practice.Ecommerce.Application.Interface",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj",
+        "projectName": "Practice.Ecommerce.Application.Main",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\Practice.Ecommerce.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\Practice.Ecommerce.Domain.Core.csproj",
+        "projectName": "Practice.Ecommerce.Domain.Core",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\Practice.Ecommerce.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj",
+        "projectName": "Practice.Ecommerce.Domain.Entity",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj",
+        "projectName": "Practice.Ecommerce.Domain.Interface",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\Practice.Ecommerce.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\Practice.Ecommerce.Infrastructure.Data.csproj",
+        "projectName": "Practice.Ecommerce.Infrastructure.Data",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\Practice.Ecommerce.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj",
+        "projectName": "Practice.Ecommerce.Infrastructure.Interface",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Repository\\Practice.Ecommerce.Infrastructure.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Repository\\Practice.Ecommerce.Infrastructure.Repository.csproj",
+        "projectName": "Practice.Ecommerce.Infrastructure.Repository",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Repository\\Practice.Ecommerce.Infrastructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\Practice.Ecommerce.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\Practice.Ecommerce.Infrastructure.Data.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Services.WebApi\\Practice.Ecommerce.Services.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Services.WebApi\\Practice.Ecommerce.Services.WebApi.csproj",
+        "projectName": "Practice.Ecommerce.Services.WebApi",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Services.WebApi\\Practice.Ecommerce.Services.WebApi.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Services.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\Practice.Ecommerce.Domain.Core.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\Practice.Ecommerce.Domain.Core.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\Practice.Ecommerce.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Data\\Practice.Ecommerce.Infrastructure.Data.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Interface\\Practice.Ecommerce.Infrastructure.Interface.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Repository\\Practice.Ecommerce.Infrastructure.Repository.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Infrastructure.Repository\\Practice.Ecommerce.Infrastructure.Repository.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Logging\\Practice.Ecommerce.Transversal.Logging.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Logging\\Practice.Ecommerce.Transversal.Logging.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Mapper\\Practice.Ecommerce.Transversal.Mapper.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Mapper\\Practice.Ecommerce.Transversal.Mapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj",
+        "projectName": "Practice.Ecommerce.Transversal.Common",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Logging\\Practice.Ecommerce.Transversal.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Logging\\Practice.Ecommerce.Transversal.Logging.csproj",
+        "projectName": "Practice.Ecommerce.Transversal.Logging",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Logging\\Practice.Ecommerce.Transversal.Logging.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Common\\Practice.Ecommerce.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Mapper\\Practice.Ecommerce.Transversal.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Mapper\\Practice.Ecommerce.Transversal.Mapper.csproj",
+        "projectName": "Practice.Ecommerce.Transversal.Mapper",
+        "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Mapper\\Practice.Ecommerce.Transversal.Mapper.csproj",
+        "packagesPath": "C:\\Users\\HADES-SRV\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Transversal.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HADES-SRV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.DTO\\Practice.Ecommerce.Application.DTO.csproj"
+              },
+              "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

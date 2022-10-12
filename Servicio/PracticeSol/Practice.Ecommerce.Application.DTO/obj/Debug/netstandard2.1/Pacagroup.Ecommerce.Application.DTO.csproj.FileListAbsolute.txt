@@ -1,0 +1,10 @@
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.deps.json
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.dll
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\bin\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.pdb
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.csproj.AssemblyReference.cache
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.AssemblyInfoInputs.cache
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.AssemblyInfo.cs
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.csproj.CoreCompileInputs.cache
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.dll
+C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagroup.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Pacagroup.Ecommerce.Application.DTO.pdb
