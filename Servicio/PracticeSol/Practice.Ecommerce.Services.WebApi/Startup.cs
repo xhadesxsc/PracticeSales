@@ -29,6 +29,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Practice.Ecommerce.Services.WebApi
 {
@@ -53,6 +54,13 @@ namespace Practice.Ecommerce.Services.WebApi
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
 
+            //services.AddCors(options =>
+            //{
+            //    var fronendURL = Configuration.GetValue<string>("front-url");
+            //    options.AddDefaultPolicy(builder =>
+            //    { builder.WithOrigins(fronendURL).AllowAnyMethod().WithHeaders();
+            //    });
+            //});
             services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins(Configuration["Config:OriginCors"])
                                                                                         .AllowAnyHeader()
                                                                                         .AllowAnyMethod()));
@@ -81,44 +89,61 @@ namespace Practice.Ecommerce.Services.WebApi
             var Issuer = appSettings.Issuer;
             var Audience = appSettings.Audience;
 
-            services.AddAuthentication(x =>
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-            .AddJwtBearer(x =>
-            {
-                x.Events = new JwtBearerEvents
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(opciones =>
+                opciones.TokenValidationParameters = new TokenValidationParameters
                 {
-                    OnTokenValidated = context =>
-                    {
-                        var userId = int.Parse(context.Principal.Identity.Name);
-                        return Task.CompletedTask;
-                    },
-
-                    OnAuthenticationFailed = context =>
-                    {
-                        if (context.Exception.GetType() == typeof(SecurityTokenExpiredException))
-                        {
-                            context.Response.Headers.Add("Token-Expired", "false");
-                        }
-                        return Task.CompletedTask;
-                    }
-                };
-                x.RequireHttpsMetadata = false;
-                x.SaveToken = false;
-                x.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = true,
-                    ValidIssuer = Issuer,
-                    ValidateAudience = true,
-                    ValidAudience = Audience,
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
                     ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(
+                        Encoding.UTF8.GetBytes(appSettings.Secret)),
                     ClockSkew = TimeSpan.Zero
-                };
+                });
+
+            services.AddAuthorization(opciones =>
+            {
+                opciones.AddPolicy("EsAdmin", policy => policy.RequireClaim("role", "admin"));
             });
+            //services.AddAuthentication(x =>
+            //{
+            //    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            //    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            //})
+            //.AddJwtBearer(x =>
+            //{
+            //    x.Events = new JwtBearerEvents
+            //    {
+            //        OnTokenValidated = context =>
+            //        {
+            //            var userId = int.Parse(context.Principal.Identity.Name);
+            //            return Task.CompletedTask;
+            //        },
+
+            //        OnAuthenticationFailed = context =>
+            //        {
+            //            if (context.Exception.GetType() == typeof(SecurityTokenExpiredException))
+            //            {
+            //                context.Response.Headers.Add("Token-Expired", "false");
+            //            }
+            //            return Task.CompletedTask;
+            //        }
+            //    };
+            //    x.RequireHttpsMetadata = false;
+            //    x.SaveToken = false;
+            //    x.TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        ValidateIssuerSigningKey = true,
+            //        IssuerSigningKey = new SymmetricSecurityKey(key),
+            //        ValidateIssuer = true,
+            //        ValidIssuer = Issuer,
+            //        ValidateAudience = true,
+            //        ValidAudience = Audience,
+            //        ValidateLifetime = true,
+            //        ClockSkew = TimeSpan.Zero
+            //    };
+            //});
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
@@ -126,19 +151,19 @@ namespace Practice.Ecommerce.Services.WebApi
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Pacagroup Technology Services API Market",
+                    Title = "Practice Technology Services API Market",
                     Description = "A simple example ASP.NET Core Web API",
                     TermsOfService = new Uri("https://pacagroup.com/terms"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Alex Espejo",
-                        Email = "alex.espejo.c@gmail.com",
-                        Url = new Uri("https://pacagroup.com/contact")
+                        Name = "Ramiro Estrada",
+                        Email = "softwarestrada@gmail.com",
+                        Url = new Uri("https://practice.com/")
                     },
                     License = new OpenApiLicense
                     {
                         Name = "Use under LICX",
-                        Url = new Uri("https://pacagroup.com/licence")
+                        Url = new Uri("https://practice.com/")
                     }
                 });
                 // Set the comments path for the Swagger JSON and UI.

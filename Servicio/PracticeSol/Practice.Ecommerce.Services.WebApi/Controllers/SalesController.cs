@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Practice.Ecommerce.Application.DTO;
 using Practice.Ecommerce.Application.Interface;
 using System;
@@ -8,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace Practice.Ecommerce.Services.WebApi.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class SalesController : Controller
     {
         private readonly ISalesApplication _salesApplication;
@@ -21,7 +25,7 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
         #region "Métodos Sincronos"
 
         [HttpPost("Insert")]
-        public IActionResult Insert([FromBody] SalesDto salesDto)
+        public async Task<ActionResult<int>> Post([FromForm] SalesDto salesDto)
         {
             if (salesDto == null)
                 return BadRequest();
@@ -140,5 +144,15 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
         }
 
         #endregion
+
+        [HttpGet("todos")]
+        public async Task<ActionResult<List<SalesDto>>> Todos()
+        {
+            var response = await _salesApplication.GetAllAsync();
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
     }
 }
