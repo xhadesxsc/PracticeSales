@@ -78,7 +78,6 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
             var response = _salesApplication.GetAll();
             if (response.IsSuccess)
                 return Ok(response);
-
             return BadRequest(response.Message);
         }
         #endregion
@@ -93,7 +92,6 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
             var response = await _salesApplication.InsertAsync(salesDto);
             if (response.IsSuccess)
                 return Ok(response);
-
             return BadRequest(response.Message);
         }
 
