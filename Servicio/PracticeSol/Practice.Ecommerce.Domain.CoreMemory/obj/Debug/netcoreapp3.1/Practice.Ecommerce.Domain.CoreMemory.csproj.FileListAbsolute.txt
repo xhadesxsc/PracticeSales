@@ -1,0 +1,17 @@
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.deps.json
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.Entity.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.InterfaceMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.InterfaceMemory.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.Entity.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.csproj.AssemblyReference.cache
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.AssemblyInfoInputs.cache
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.AssemblyInfo.cs
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.csproj.CoreCompileInputs.cache
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.csproj.CopyComplete
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.CoreMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.pdb

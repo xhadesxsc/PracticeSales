@@ -3660,6 +3660,22 @@
           "bin/placeholder/Practice.Ecommerce.Application.Main.dll": {}
         }
       },
+      "Practice.Ecommerce.Application.MainMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Practice.Ecommerce.Application.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Domain.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Infrastructure.InterfaceMemory": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Practice.Ecommerce.Application.MainMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Practice.Ecommerce.Application.MainMemory.dll": {}
+        }
+      },
       "Practice.Ecommerce.Domain.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -3673,6 +3689,20 @@
         },
         "runtime": {
           "bin/placeholder/Practice.Ecommerce.Domain.Core.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Domain.CoreMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Practice.Ecommerce.Domain.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Infrastructure.InterfaceMemory": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Practice.Ecommerce.Domain.CoreMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Practice.Ecommerce.Domain.CoreMemory.dll": {}
         }
       },
       "Practice.Ecommerce.Domain.Entity/1.0.0": {
@@ -3696,6 +3726,19 @@
         },
         "runtime": {
           "bin/placeholder/Practice.Ecommerce.Domain.Interface.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Domain.InterfaceMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Practice.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Practice.Ecommerce.Domain.InterfaceMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Practice.Ecommerce.Domain.InterfaceMemory.dll": {}
         }
       },
       "Practice.Ecommerce.Infrastructure.Data/1.0.0": {
@@ -10857,10 +10900,20 @@
       "path": "../Practice.Ecommerce.Application.Main/Practice.Ecommerce.Application.Main.csproj",
       "msbuildProject": "../Practice.Ecommerce.Application.Main/Practice.Ecommerce.Application.Main.csproj"
     },
+    "Practice.Ecommerce.Application.MainMemory/1.0.0": {
+      "type": "project",
+      "path": "../Practice.Ecommerce.Application.MainMemory/Practice.Ecommerce.Application.MainMemory.csproj",
+      "msbuildProject": "../Practice.Ecommerce.Application.MainMemory/Practice.Ecommerce.Application.MainMemory.csproj"
+    },
     "Practice.Ecommerce.Domain.Core/1.0.0": {
       "type": "project",
       "path": "../Practice.Ecommerce.Domain.Core/Practice.Ecommerce.Domain.Core.csproj",
       "msbuildProject": "../Practice.Ecommerce.Domain.Core/Practice.Ecommerce.Domain.Core.csproj"
+    },
+    "Practice.Ecommerce.Domain.CoreMemory/1.0.0": {
+      "type": "project",
+      "path": "../Practice.Ecommerce.Domain.CoreMemory/Practice.Ecommerce.Domain.CoreMemory.csproj",
+      "msbuildProject": "../Practice.Ecommerce.Domain.CoreMemory/Practice.Ecommerce.Domain.CoreMemory.csproj"
     },
     "Practice.Ecommerce.Domain.Entity/1.0.0": {
       "type": "project",
@@ -10871,6 +10924,11 @@
       "type": "project",
       "path": "../Practice.Ecommerce.Domain.Interface/Practice.Ecommerce.Domain.Interface.csproj",
       "msbuildProject": "../Practice.Ecommerce.Domain.Interface/Practice.Ecommerce.Domain.Interface.csproj"
+    },
+    "Practice.Ecommerce.Domain.InterfaceMemory/1.0.0": {
+      "type": "project",
+      "path": "../Practice.Ecommerce.Domain.InterfaceMemory/Practice.Ecommerce.Domain.InterfaceMemory.csproj",
+      "msbuildProject": "../Practice.Ecommerce.Domain.InterfaceMemory/Practice.Ecommerce.Domain.InterfaceMemory.csproj"
     },
     "Practice.Ecommerce.Infrastructure.Data/1.0.0": {
       "type": "project",
@@ -10926,9 +10984,12 @@
       "Practice.Ecommerce.Application.Interface >= 1.0.0",
       "Practice.Ecommerce.Application.InterfaceMemory >= 1.0.0",
       "Practice.Ecommerce.Application.Main >= 1.0.0",
+      "Practice.Ecommerce.Application.MainMemory >= 1.0.0",
       "Practice.Ecommerce.Domain.Core >= 1.0.0",
+      "Practice.Ecommerce.Domain.CoreMemory >= 1.0.0",
       "Practice.Ecommerce.Domain.Entity >= 1.0.0",
       "Practice.Ecommerce.Domain.Interface >= 1.0.0",
+      "Practice.Ecommerce.Domain.InterfaceMemory >= 1.0.0",
       "Practice.Ecommerce.Infrastructure.Data >= 1.0.0",
       "Practice.Ecommerce.Infrastructure.Interface >= 1.0.0",
       "Practice.Ecommerce.Infrastructure.Memory >= 1.0.0",
@@ -10989,14 +11050,23 @@
             "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj": {
               "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Interface\\Practice.Ecommerce.Application.Interface.csproj"
             },
+            "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.MainMemory\\Practice.Ecommerce.Application.MainMemory.csproj": {
+              "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.MainMemory\\Practice.Ecommerce.Application.MainMemory.csproj"
+            },
             "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj": {
               "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Application.Main\\Practice.Ecommerce.Application.Main.csproj"
+            },
+            "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.CoreMemory\\Practice.Ecommerce.Domain.CoreMemory.csproj": {
+              "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.CoreMemory\\Practice.Ecommerce.Domain.CoreMemory.csproj"
             },
             "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\Practice.Ecommerce.Domain.Core.csproj": {
               "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Core\\Practice.Ecommerce.Domain.Core.csproj"
             },
             "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj": {
               "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Entity\\Practice.Ecommerce.Domain.Entity.csproj"
+            },
+            "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.InterfaceMemory\\Practice.Ecommerce.Domain.InterfaceMemory.csproj": {
+              "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.InterfaceMemory\\Practice.Ecommerce.Domain.InterfaceMemory.csproj"
             },
             "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj": {
               "projectPath": "D:\\PROJECTS\\PRACTICE_SERVICE\\Servicio\\PracticeSol\\Practice.Ecommerce.Domain.Interface\\Practice.Ecommerce.Domain.Interface.csproj"

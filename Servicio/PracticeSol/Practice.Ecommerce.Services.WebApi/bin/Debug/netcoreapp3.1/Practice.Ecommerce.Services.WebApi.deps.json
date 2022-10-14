@@ -42,9 +42,12 @@
           "Practice.Ecommerce.Application.Interface": "1.0.0",
           "Practice.Ecommerce.Application.InterfaceMemory": "1.0.0",
           "Practice.Ecommerce.Application.Main": "1.0.0",
+          "Practice.Ecommerce.Application.MainMemory": "1.0.0",
           "Practice.Ecommerce.Domain.Core": "1.0.0",
+          "Practice.Ecommerce.Domain.CoreMemory": "1.0.0",
           "Practice.Ecommerce.Domain.Entity": "1.0.0",
           "Practice.Ecommerce.Domain.Interface": "1.0.0",
+          "Practice.Ecommerce.Domain.InterfaceMemory": "1.0.0",
           "Practice.Ecommerce.Infrastructure.Data": "1.0.0",
           "Practice.Ecommerce.Infrastructure.Interface": "1.0.0",
           "Practice.Ecommerce.Infrastructure.Memory": "1.0.0",
@@ -2975,6 +2978,20 @@
           "Practice.Ecommerce.Application.Main.dll": {}
         }
       },
+      "Practice.Ecommerce.Application.MainMemory/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Practice.Ecommerce.Application.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Domain.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Infrastructure.InterfaceMemory": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Application.MainMemory.dll": {}
+        },
+        "compile": {
+          "Practice.Ecommerce.Application.MainMemory.dll": {}
+        }
+      },
       "Practice.Ecommerce.Domain.Core/1.0.0": {
         "dependencies": {
           "Practice.Ecommerce.Domain.Entity": "1.0.0",
@@ -2986,6 +3003,18 @@
         },
         "compile": {
           "Practice.Ecommerce.Domain.Core.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Domain.CoreMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Domain.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Infrastructure.InterfaceMemory": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Domain.CoreMemory.dll": {}
+        },
+        "compile": {
+          "Practice.Ecommerce.Domain.CoreMemory.dll": {}
         }
       },
       "Practice.Ecommerce.Domain.Entity/1.0.0": {
@@ -3005,6 +3034,17 @@
         },
         "compile": {
           "Practice.Ecommerce.Domain.Interface.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Domain.InterfaceMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Domain.InterfaceMemory.dll": {}
+        },
+        "compile": {
+          "Practice.Ecommerce.Domain.InterfaceMemory.dll": {}
         }
       },
       "Practice.Ecommerce.Infrastructure.Data/1.0.0": {
@@ -6319,7 +6359,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Practice.Ecommerce.Application.MainMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Practice.Ecommerce.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Domain.CoreMemory/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -6330,6 +6380,11 @@
       "sha512": ""
     },
     "Practice.Ecommerce.Domain.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Domain.InterfaceMemory/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

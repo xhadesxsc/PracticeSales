@@ -32,6 +32,11 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Practice.Ecommerce.Infrastructure.Memory;
+using Practice.Ecommerce.Infrastructure.InterfaceMemory;
+using Practice.Ecommerce.Domain.CoreMemory;
+using Practice.Ecommerce.Domain.InterfaceMemory;
+using Practice.Ecommerce.Application.InterfaceMemory;
+using Practice.Ecommerce.Application.MainMemory;
 
 namespace Practice.Ecommerce.Services.WebApi
 {
@@ -59,7 +64,7 @@ namespace Practice.Ecommerce.Services.WebApi
             services.AddHttpContextAccessor();
 
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseInMemoryDatabase("Sales"));
+            options.UseInMemoryDatabase(databaseName: "SalesTest"));
 
             //services.AddCors(options =>
             //{
@@ -87,6 +92,9 @@ namespace Practice.Ecommerce.Services.WebApi
             services.AddScoped<ISalesApplication, SalesApplication>();
             services.AddScoped<ISalesDomain, SalesDomain>();
             services.AddScoped<ISalesRepository, SalesRepository>();
+            services.AddScoped<ISalesApplicationMemory, SalesApplicationMemory>();
+            services.AddScoped<ISalesDomainMemory, SalesDomainMemory>();
+            services.AddScoped<ISalesInMemory, SalesInMemory>();
             services.AddScoped<IUsersApplication, UsersApplication>();
             services.AddScoped<IUsersDomain, UsersDomain>();
             services.AddScoped<IUsersRepository, UsersRepository>();

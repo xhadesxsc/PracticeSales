@@ -1,0 +1,125 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Practice.Ecommerce.Application.MainMemory/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "Practice.Ecommerce.Application.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Domain.InterfaceMemory": "1.0.0",
+          "Practice.Ecommerce.Infrastructure.InterfaceMemory": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Application.MainMemory.dll": {}
+        }
+      },
+      "AutoMapper/12.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Practice.Ecommerce.Application.DTO/1.0.0": {
+        "runtime": {
+          "Practice.Ecommerce.Application.DTO.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Application.InterfaceMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Application.DTO": "1.0.0",
+          "Practice.Ecommerce.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Application.InterfaceMemory.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Domain.Entity/1.0.0": {
+        "runtime": {
+          "Practice.Ecommerce.Domain.Entity.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Domain.InterfaceMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Domain.InterfaceMemory.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Infrastructure.InterfaceMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Infrastructure.InterfaceMemory.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Transversal.Common/1.0.0": {
+        "runtime": {
+          "Practice.Ecommerce.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practice.Ecommerce.Application.MainMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+      "path": "automapper/12.0.0",
+      "hashPath": "automapper.12.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Practice.Ecommerce.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Application.InterfaceMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Domain.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Domain.InterfaceMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Infrastructure.InterfaceMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

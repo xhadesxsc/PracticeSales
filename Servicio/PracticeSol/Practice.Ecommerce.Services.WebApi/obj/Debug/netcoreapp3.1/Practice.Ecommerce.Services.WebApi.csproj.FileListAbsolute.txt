@@ -189,3 +189,9 @@ D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.We
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.pdb
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Application.InterfaceMemory.dll
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Application.InterfaceMemory.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Application.MainMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.InterfaceMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Application.MainMemory.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.CoreMemory.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Services.WebApi\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.InterfaceMemory.pdb
