@@ -1,0 +1,13 @@
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.deps.json
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.Entity.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\bin\Debug\netcoreapp3.1\Practice.Ecommerce.Domain.Entity.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.csproj.AssemblyReference.cache
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.AssemblyInfoInputs.cache
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.AssemblyInfo.cs
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.csproj.CoreCompileInputs.cache
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.csproj.CopyComplete
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.dll
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Infrastructure.InterfaceMemory\obj\Debug\netcoreapp3.1\Practice.Ecommerce.Infrastructure.InterfaceMemory.pdb

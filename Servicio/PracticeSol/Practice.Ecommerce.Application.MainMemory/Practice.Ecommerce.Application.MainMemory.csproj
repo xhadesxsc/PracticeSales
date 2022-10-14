@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Practice.Ecommerce.Application.InterfaceMemory\Practice.Ecommerce.Application.InterfaceMemory.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Domain.InterfaceMemory\Practice.Ecommerce.Domain.InterfaceMemory.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Infrastructure.InterfaceMemory\Practice.Ecommerce.Infrastructure.InterfaceMemory.csproj" />
+  </ItemGroup>
+
+</Project>

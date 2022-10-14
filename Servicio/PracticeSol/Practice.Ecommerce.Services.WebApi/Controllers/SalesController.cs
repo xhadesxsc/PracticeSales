@@ -1,8 +1,13 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Practice.Ecommerce.Application.DTO;
 using Practice.Ecommerce.Application.Interface;
+using Practice.Ecommerce.Application.InterfaceMemory;
+using Practice.Ecommerce.Domain.Entity;
+using Practice.Ecommerce.Transversal.Common;
+using Practice.Ecommerce.Transversal.Mapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,16 +15,23 @@ using System.Threading.Tasks;
 
 namespace Practice.Ecommerce.Services.WebApi.Controllers
 {
-    
+
     [Route("api/[controller]")]
     [ApiController]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class SalesController : Controller
     {
         private readonly ISalesApplication _salesApplication;
-        public SalesController(ISalesApplication salesApplication)
+        private readonly ISalesApplicationMemory _salesApplicationIM;
+        //private readonly ApplicationDbContext _context;
+        private readonly IMapper _mapper;
+
+        public SalesController(ISalesApplication salesApplication, ISalesApplicationMemory salesApplicationIM
+            , IMapper mapper)
         {
             _salesApplication = salesApplication;
+            _salesApplicationIM = salesApplicationIM;
+            _mapper = mapper;
         }
 
         #region "Métodos Sincronos"
@@ -141,8 +153,6 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        #endregion
-
         [HttpGet("todos")]
         public async Task<ActionResult<List<SalesDto>>> Todos()
         {
@@ -152,5 +162,31 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+        #endregion
+
+
+        #region "Métodos in Memory"
+        [HttpGet("GetAllMemory")]
+        public async Task<ActionResult<SalesDto>> GetAllMemory()
+        {
+            var response =  _salesApplicationIM.GetAllMemory();
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
+
+        [HttpPost("InsertMemory")]
+        public async Task<ActionResult<int>> InsertMemory([FromForm] SalesDto salesDto)
+        {
+            if (salesDto == null)
+                return BadRequest();
+            var response = _salesApplicationIM.InsertMemory(salesDto);
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
     }
+    #endregion
 }

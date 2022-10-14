@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Practice.Ecommerce.Application.InterfaceMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Application.DTO": "1.0.0",
+          "Practice.Ecommerce.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Application.InterfaceMemory.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Application.DTO/1.0.0": {
+        "runtime": {
+          "Practice.Ecommerce.Application.DTO.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Transversal.Common/1.0.0": {
+        "runtime": {
+          "Practice.Ecommerce.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practice.Ecommerce.Application.InterfaceMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

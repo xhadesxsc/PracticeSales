@@ -11,11 +11,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <Content Remove="Migrations\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ApplicationDbContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
@@ -27,13 +42,18 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Practice.Ecommerce.Application.DTO\Practice.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Application.InterfaceMemory\Practice.Ecommerce.Application.InterfaceMemory.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Application.Interface\Practice.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Application.MainMemory\Practice.Ecommerce.Application.MainMemory.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Application.Main\Practice.Ecommerce.Application.Main.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Domain.CoreMemory\Practice.Ecommerce.Domain.CoreMemory.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Domain.Core\Practice.Ecommerce.Domain.Core.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Domain.Entity\Practice.Ecommerce.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Domain.InterfaceMemory\Practice.Ecommerce.Domain.InterfaceMemory.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Domain.Interface\Practice.Ecommerce.Domain.Interface.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Infrastructure.Data\Practice.Ecommerce.Infrastructure.Data.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Infrastructure.Interface\Practice.Ecommerce.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Infrastructure.Memory\Practice.Ecommerce.Infrastructure.Memory.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Infrastructure.Repository\Practice.Ecommerce.Infrastructure.Repository.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Transversal.Common\Practice.Ecommerce.Transversal.Common.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Transversal.Logging\Practice.Ecommerce.Transversal.Logging.csproj" />

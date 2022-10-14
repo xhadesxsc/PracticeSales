@@ -11,10 +11,10 @@ C:\Users\HADES-SRV\Downloads\Pacagroup.Ecommerce_v6\Pacagroup.Ecommerce\Pacagrou
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.deps.json
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.dll
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.pdb
-D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.csproj.AssemblyReference.cache
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.AssemblyInfoInputs.cache
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.AssemblyInfo.cs
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.csproj.CoreCompileInputs.cache
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.dll
 D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.pdb
+D:\PROJECTS\PRACTICE_SERVICE\Servicio\PracticeSol\Practice.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Practice.Ecommerce.Domain.Entity.csproj.AssemblyReference.cache
