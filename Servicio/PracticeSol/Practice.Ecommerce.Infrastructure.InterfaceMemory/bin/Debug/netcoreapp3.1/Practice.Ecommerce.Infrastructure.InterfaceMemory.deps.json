@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Practice.Ecommerce.Infrastructure.InterfaceMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Infrastructure.InterfaceMemory.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Domain.Entity/1.0.0": {
+        "runtime": {
+          "Practice.Ecommerce.Domain.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practice.Ecommerce.Infrastructure.InterfaceMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Domain.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

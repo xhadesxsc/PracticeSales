@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Practice.Ecommerce.Application.DTO;
 using Practice.Ecommerce.Application.Interface;
+using Practice.Ecommerce.Domain.Entity;
+using Practice.Ecommerce.Transversal.Common;
+using Practice.Ecommerce.Transversal.Mapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +21,14 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
     public class SalesController : Controller
     {
         private readonly ISalesApplication _salesApplication;
-        public SalesController(ISalesApplication salesApplication)
+        private readonly ApplicationDbContext _context;
+        private readonly IMapper _mapper;
+
+        public SalesController(ISalesApplication salesApplication, IMapper mapper, ApplicationDbContext context)
         {
             _salesApplication = salesApplication;
+            _mapper = mapper;
+            _context = context;
         }
 
         #region "Métodos Sincronos"
@@ -151,6 +160,38 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
                 return Ok(response);
 
             return BadRequest(response.Message);
+        }
+
+
+        [HttpGet("GetAllMemory")]
+        public async Task<ActionResult<SalesDto>> GetAllMemory()
+        {
+            var response = new Response<List<SalesDto>>();
+            var sales =  _context.Sales.ToList();
+            if (sales != null)
+            {
+                response.Data = sales.Count>0?_mapper.Map<List<SalesDto>>(sales): new List<SalesDto>();
+                response.IsSuccess = true;
+                response.Message = "Listado Correcto";
+                return Ok(response);
+            }
+            else
+            {
+                response.Message = "Error listado";
+            }
+            return BadRequest(response.Message);
+        }
+
+        [HttpPost("InsertMemory")]
+        public async Task<ActionResult<int>> InsertMemory([FromForm] SalesDto salesDto)
+        {
+            if (salesDto == null)
+                return BadRequest();
+           _context.Add(_mapper.Map<Sales>(salesDto));
+            if (_context.SaveChanges()>0)
+                return Ok();
+
+            return BadRequest();
         }
     }
 }

@@ -30,6 +30,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Practice.Ecommerce.Services.WebApi
 {
@@ -46,13 +47,18 @@ namespace Practice.Ecommerce.Services.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Auto Mapper Configurations
-            var mappingConfig = new MapperConfiguration(mc =>
+           // Auto Mapper Configurations
+           var mappingConfig = new MapperConfiguration(mc =>
             {
                 mc.AddProfile(new MappingsProfile());
             });
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
+
+            services.AddHttpContextAccessor();
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseInMemoryDatabase("Sales"));
 
             //services.AddCors(options =>
             //{
