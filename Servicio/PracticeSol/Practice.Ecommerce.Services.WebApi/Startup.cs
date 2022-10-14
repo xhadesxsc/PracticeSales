@@ -31,6 +31,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Practice.Ecommerce.Infrastructure.Memory;
 
 namespace Practice.Ecommerce.Services.WebApi
 {

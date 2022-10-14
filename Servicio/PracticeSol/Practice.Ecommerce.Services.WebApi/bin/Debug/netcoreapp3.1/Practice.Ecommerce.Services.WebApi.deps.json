@@ -40,6 +40,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0",
           "Practice.Ecommerce.Application.DTO": "1.0.0",
           "Practice.Ecommerce.Application.Interface": "1.0.0",
+          "Practice.Ecommerce.Application.InterfaceMemory": "1.0.0",
           "Practice.Ecommerce.Application.Main": "1.0.0",
           "Practice.Ecommerce.Domain.Core": "1.0.0",
           "Practice.Ecommerce.Domain.Entity": "1.0.0",
@@ -2944,6 +2945,18 @@
         },
         "compile": {
           "Practice.Ecommerce.Application.Interface.dll": {}
+        }
+      },
+      "Practice.Ecommerce.Application.InterfaceMemory/1.0.0": {
+        "dependencies": {
+          "Practice.Ecommerce.Application.DTO": "1.0.0",
+          "Practice.Ecommerce.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Practice.Ecommerce.Application.InterfaceMemory.dll": {}
+        },
+        "compile": {
+          "Practice.Ecommerce.Application.InterfaceMemory.dll": {}
         }
       },
       "Practice.Ecommerce.Application.Main/1.0.0": {
@@ -6292,6 +6305,11 @@
       "sha512": ""
     },
     "Practice.Ecommerce.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice.Ecommerce.Application.InterfaceMemory/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

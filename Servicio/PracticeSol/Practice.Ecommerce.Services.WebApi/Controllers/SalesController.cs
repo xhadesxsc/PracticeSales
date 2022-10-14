@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Practice.Ecommerce.Application.DTO;
 using Practice.Ecommerce.Application.Interface;
+using Practice.Ecommerce.Application.InterfaceMemory;
 using Practice.Ecommerce.Domain.Entity;
 using Practice.Ecommerce.Transversal.Common;
 using Practice.Ecommerce.Transversal.Mapper;
@@ -14,21 +15,23 @@ using System.Threading.Tasks;
 
 namespace Practice.Ecommerce.Services.WebApi.Controllers
 {
-    
+
     [Route("api/[controller]")]
     [ApiController]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class SalesController : Controller
     {
         private readonly ISalesApplication _salesApplication;
-        private readonly ApplicationDbContext _context;
+        private readonly ISalesApplicationMemory _salesApplicationIM;
+        //private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
 
-        public SalesController(ISalesApplication salesApplication, IMapper mapper, ApplicationDbContext context)
+        public SalesController(ISalesApplication salesApplication, ISalesApplicationMemory salesApplicationIM
+            , IMapper mapper)
         {
             _salesApplication = salesApplication;
+            _salesApplicationIM = salesApplicationIM;
             _mapper = mapper;
-            _context = context;
         }
 
         #region "Métodos Sincronos"
@@ -150,8 +153,6 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        #endregion
-
         [HttpGet("todos")]
         public async Task<ActionResult<List<SalesDto>>> Todos()
         {
@@ -161,24 +162,17 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+        #endregion
 
 
+        #region "Métodos in Memory"
         [HttpGet("GetAllMemory")]
         public async Task<ActionResult<SalesDto>> GetAllMemory()
         {
-            var response = new Response<List<SalesDto>>();
-            var sales =  _context.Sales.ToList();
-            if (sales != null)
-            {
-                response.Data = sales.Count>0?_mapper.Map<List<SalesDto>>(sales): new List<SalesDto>();
-                response.IsSuccess = true;
-                response.Message = "Listado Correcto";
+            var response =  _salesApplicationIM.GetAllMemory();
+            if (response.IsSuccess)
                 return Ok(response);
-            }
-            else
-            {
-                response.Message = "Error listado";
-            }
+
             return BadRequest(response.Message);
         }
 
@@ -187,11 +181,12 @@ namespace Practice.Ecommerce.Services.WebApi.Controllers
         {
             if (salesDto == null)
                 return BadRequest();
-           _context.Add(_mapper.Map<Sales>(salesDto));
-            if (_context.SaveChanges()>0)
-                return Ok();
+            var response = _salesApplicationIM.InsertMemory(salesDto);
+            if (response.IsSuccess)
+                return Ok(response);
 
-            return BadRequest();
+            return BadRequest(response.Message);
         }
     }
+    #endregion
 }

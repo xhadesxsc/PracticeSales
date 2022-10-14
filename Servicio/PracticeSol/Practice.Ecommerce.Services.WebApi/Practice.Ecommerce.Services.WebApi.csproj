@@ -11,6 +11,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <Content Remove="Migrations\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ApplicationDbContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
@@ -31,6 +42,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Practice.Ecommerce.Application.DTO\Practice.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Practice.Ecommerce.Application.InterfaceMemory\Practice.Ecommerce.Application.InterfaceMemory.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Application.Interface\Practice.Ecommerce.Application.Interface.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Application.Main\Practice.Ecommerce.Application.Main.csproj" />
     <ProjectReference Include="..\Practice.Ecommerce.Domain.Core\Practice.Ecommerce.Domain.Core.csproj" />
