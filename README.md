@@ -8,7 +8,7 @@ tecnologías usadas: Net framework, Net Core 3.1 Dapper, AutoMapper, JWT, Swagge
 
 ### *** NOTAS
 Tener en cuenta los Branch
-los cambios para trabajar en menoria se encuentran en el Branch Developer, Memory
+los cambios realizados para trabajar en menoria, se encuentra en el Branch de "Memory"
 
 
 
